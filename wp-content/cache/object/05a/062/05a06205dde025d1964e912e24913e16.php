@@ -1,0 +1,1 @@
+Ó\<?php exit; ?>a:1:{s:7:"content";a:4:{s:14:"wordfence_case";b:1;s:12:"wpseo_onpage";b:1;s:37:"vip-scanner-default-async-review-type";b:1;s:29:"_transient_timeout_doing_cron";b:1;}}

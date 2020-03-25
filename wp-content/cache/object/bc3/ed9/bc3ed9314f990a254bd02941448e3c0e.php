@@ -1,0 +1,1 @@
+Ãz\<?php exit; ?>a:1:{s:7:"content";a:3:{s:20:"can_compress_scripts";b:1;s:14:"wordfence_case";b:1;s:14:"plugin_options";b:1;}}

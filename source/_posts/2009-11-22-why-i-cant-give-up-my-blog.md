@@ -1,0 +1,8 @@
+---
+layout: post
+title: Why i can&#039;t give up my Blog
+date: 2009-11-22 08:27
+comments: true
+categories: []
+---
+I haven't posted in 8 months. In that time I've tested windows 7, switched to Ubuntu full-time, switched my primary programming language from .NET to Ruby on Rails, I got an Android phone (G1) and my wife is addicted to Facebook. Have you seen some of the facebook games, like FarmTown and Farmville. Complete waste of time, but hey whatever floats your boat right?<div><br /></div><h2>Yes Bryan Siegel is keeping his blog</h2><br /><div>I have thought it over a few times and decided to keep it for the moment. The thing is that I have lost the fire to post. And no it's not because of <a href="http://twitter.com/BryanSiegel">my Twitter feed</a> it's because of the amount of effort it takes to post and the fact this blog was mainly put together for geek popularity among friends. Well allot has happened since 2006. The sad thing is I've noticed the best info is from blogs, and since Twitter most people are letting their blogs go by the waste-side. I spent a good hour cleaning up my Google Reader subscriptions. I've noticed especially allot of SEO's I used to follow have thrown in the towel. That's why I like in house under the radar work. No more multiple client crap, boss getting in the way of progress stuff. </div><div><br /><div>With a wife and kids to think about I don't have allot of time to focus on this blog. I have been working on two side projects (for fun) in Ruby on Rails that will take all of my free time. For me there's just not enough hours in the day.</div></div>

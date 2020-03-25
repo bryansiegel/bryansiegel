@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+	
+    <html lang="en-US" prefix="og: http://ogp.me/ns#"> 
+	<meta charset="UTF-8" />
+	
+	<meta name="description" content="Gadgets, Geek and Web Development"/>
+    <link rel="pingback" href="http://bryansiegel.com/xmlrpc.php" />
+    
+
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" media="all" href="http://bryansiegel.com/wp-content/themes/gridly/css/reset.css" />
+
+     
+   
+            <link rel="stylesheet" href="http://bryansiegel.com/wp-content/themes/gridly/css/light.css"/> 
+        
+        	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+      	<link rel="stylesheet" type="text/css" media="handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px)" href="http://bryansiegel.com/wp-content/themes/gridly/css/mobile.css" />
+        
+ 	<!-- wp head -->
+	
+<!-- This site is optimized with the Yoast SEO plugin v7.5.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Switching from a Rails VPS to Shared Hosting - Bryan Siegel</title>
+<link rel="canonical" href="http://bryansiegel.com/2011/11/switching-rails-vps-shared-hosting/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Switching from a Rails VPS to Shared Hosting - Bryan Siegel" />
+<meta property="og:url" content="http://bryansiegel.com/2011/11/switching-rails-vps-shared-hosting/" />
+<meta property="og:site_name" content="Bryan Siegel" />
+<meta property="article:tag" content="hostingrails" />
+<meta property="article:tag" content="ruby on rails" />
+<meta property="article:tag" content="ruby on rails hosting" />
+<meta property="article:section" content="ruby on rails" />
+<meta property="article:published_time" content="2011-11-06T04:08:14+00:00" />
+<meta property="article:modified_time" content="2013-04-25T04:38:29+00:00" />
+<meta property="og:updated_time" content="2013-04-25T04:38:29+00:00" />
+<meta property="og:image" content="http://bryansiegel.com/wp-content/uploads/2011/11/rails.jpeg" />
+<meta property="og:image:width" content="300" />
+<meta property="og:image:height" content="356" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Bryan Siegel &raquo; Feed" href="http://bryansiegel.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Bryan Siegel &raquo; Comments Feed" href="http://bryansiegel.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Bryan Siegel &raquo; Switching from a Rails VPS to Shared Hosting Comments Feed" href="http://bryansiegel.com/2011/11/switching-rails-vps-shared-hosting/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/bryansiegel.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=78b05ff4cda4e06fd3f489c68646b240"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js?ver=78b05ff4cda4e06fd3f489c68646b240'></script>
+<script type='text/javascript' src='http://bryansiegel.com/wp-content/plugins/plum-code-box/chili/jquery.chili-2.2.js?ver=2.2'></script>
+<script type='text/javascript' src='http://bryansiegel.com/wp-content/plugins/plum-code-box/chili/recipes.js?ver=2.2'></script>
+<link rel='https://api.w.org/' href='http://bryansiegel.com/wp-json/' />
+<link rel='shortlink' href='http://bryansiegel.com/?p=133' />
+<link rel="alternate" type="application/json+oembed" href="http://bryansiegel.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbryansiegel.com%2F2011%2F11%2Fswitching-rails-vps-shared-hosting%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://bryansiegel.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbryansiegel.com%2F2011%2F11%2Fswitching-rails-vps-shared-hosting%2F&#038;format=xml" />
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//bryansiegel.com/?wordfence_lh=1&hid=092D2AC4F1023D182DD366A949AE5ABC');
+</script>    
+	<link rel="author" href="https://plus.google.com/107021327353878189947/posts" />
+  <style type="text/css">
+.title_color a{ color:#444444; }
+  </style>
+
+</head>
+
+<body class="post-template-default single single-post postid-133 single-format-standard">
+	
+<div id="wrap">
+	<div id="header">
+        
+    	<div id="logo">
+        	<a href="http://bryansiegel.com/"  title="Bryan Siegel" rel="home">
+            
+                                        <img src="http://bryansiegel.com/wp-content/themes/gridly/images/light/logo.png" alt="Bryan Siegel">
+                             </a>
+            
+       </div>
+ 	 	 <div id="nav"><ul><li><span class="title_color"><a href="http://bryansiegel.com/who-cares-about-bryan-siegel/">Who Cares About Bryan Siegel?</a></span></li><li><a href="https://twitter.com/BryanSiegel" title="Bryan Siegel on Twitter"><img src="http://bryansiegel.com/images/twitter.png" alt="Bryan Siegel on Twitter" /></a></li></ul></div>
+	   
+
+   </div>
+         
+				
+           
+       
+   		<div id="post-133" class="post-133 post type-post status-publish format-standard has-post-thumbnail hentry category-ruby-on-rails category-web-development tag-hostingrails tag-ruby-on-rails tag-ruby-on-rails-hosting">
+						
+				<div class="gridly-image"><img width="300" height="356" src="http://bryansiegel.com/wp-content/uploads/2011/11/rails.jpeg" class="attachment-detail-image size-detail-image wp-post-image" alt="" srcset="http://bryansiegel.com/wp-content/uploads/2011/11/rails.jpeg 300w, http://bryansiegel.com/wp-content/uploads/2011/11/rails-252x300.jpeg 252w" sizes="(max-width: 300px) 100vw, 300px" /></div>
+                <div class="gridly-category"><p><a href="http://bryansiegel.com/category/ruby-on-rails/" rel="category tag">ruby on rails</a>, <a href="http://bryansiegel.com/category/web-development/" rel="category tag">Web Development</a></p></div>
+                                
+
+       			<div class="gridly-copy">
+                <h1>Switching from a Rails VPS to Shared Hosting</h1>
+                 <p class="gridly-date"> November 6, 2011</p>
+           		 <p><strong>Update: June 27th 2012</strong></p>
+<p><em>Hosting Rails is part of Jumpline now. I just contact customer support and they no longer offer Ruby on Rails hosting.</em></p>
+<p>For the last year or two (I&#8217;m getting old I can&#8217;t remember crap) I&#8217;ve been doing allot of Ruby on Rails development. When I first got into Ruby on Rails I loved it. It was easy to create a basic CRUD application, the DRY (don&#8217;t repeat yourself) methodology and above all else the structure of a Rails app. If I were to look at someone else&#8217;s Rails app I&#8217;d immediately know where to look to see how the thing was put together. I can&#8217;t express how many times I&#8217;ve almost thrown up after looking at other people&#8217;s Asp.net and PHP code. With all of that said the one thing that urks me is how much of a cluster fuck it is to host a rails app.</p>
+<h3>The Shittiest Part of Ruby on Rails is hosting</h3>
+<p>I spent allot of money my first month of rails development. Primarily because I had a hard time finding a good host. I didn&#8217;t feel like becoming a system admin so that I could get a few of my rails apps online. After my long search I decided to go with <a title="Webbynode" href="http://webbynode.com/">Webbynode</a>. Webbynode was by far the easiest way (at the time) to host my rails apps. I&#8217;ve had a few problems with Webbynode for the last couple of months and decided it was time to move onto another host. This time instead of a VPS I decided I wanted to see how the shared hosting offerings were nowaday&#8217;s.</p>
+<h3>Why a Shared Host</h3>
+<p>I build allot of Ruby on Rails applications under lock and key. Most of them finished some of them not. I tend to get an idea, build the application, hit a road block then I dump the project for awhile and come back to it later. I needed a host where I have an unlimited amount of domains for my Ruby on Rails applications. Bandwidth isn&#8217;t a concern because I don&#8217;t advertise any of my Ruby on Rails applications.</p>
+<h3>Shared Hosting isn&#8217;t that bad anymore</h3>
+<p>While Shared hosting was a pain when I first started Rails dev it isn&#8217;t that bad anymore. I looked around at a few hosts and contacted support to see how fast they responded and decided to go with <del>Hosting Rail</del>s (Hosting Rails is now Jumpline they no longer support Rails hosting). It was $9.95 U.S. on a month to month basis and it&#8217;s real easy to setup a Rails application.</p>
+<h3>The Account Screen</h3>
+<p>Once you log into your account you&#8217;ll be greeted with your account information such as your name, phone number and address. While the login screen is looks old it&#8217;s simple and to the point which is different than Godaddy&#8217;s bloated back end system.</p>
+<h3>My Products Tab</h3>
+<p>Things start to get interesting under the My Products tab. This is pretty much the gateway to your cpanel and administration controls. Under the view details tab is where you can edit ftp information, edit your cpanel password and other administrative features. The control panel link takes you directly to their implementation of cpanel. For those that have worked on a LAMP stack have more than likely used cpanel before. What I found interesting though is the lack of nameserver information anywhere. Luckily your nameserver information was emailed to you once you opened the account. I could have missed it but I&#8217;m pretty sure it&#8217;s not anywhere within their administrative interfaces.</p>
+<h3></h3>
+<h3></h3>
+<h3></h3>
+<h3>Initial Setup</h3>
+<p>This may sound strange but there was none. My application was already made for me. I logged into FTP and sure enough my basic application was there. All that I had to do was ssh into the server, upload my app and migrate mysql and presto my application was loaded and ready to go.</p>
+<h3>Conclusion</h3>
+<p>I&#8217;m pretty happy with Hosting Rails so far. The setup was painless and I love the fact that I have cpanel for my Rails apps.</p>
+ 
+                 <p>Tags: <a href="http://bryansiegel.com/tag/hostingrails/" rel="tag">hostingrails</a>, <a href="http://bryansiegel.com/tag/ruby-on-rails/" rel="tag">ruby on rails</a>, <a href="http://bryansiegel.com/tag/ruby-on-rails-hosting/" rel="tag">ruby on rails hosting</a></p>
+
+                
+                <div class="clear"></div>
+				
+
+			
+
+
+ 
+                </div>
+
+
+                
+                
+       </div>
+       
+		       
+       <div class="post-nav">
+               <div class="post-prev"><a href="http://bryansiegel.com/2011/10/galaxy-nexus-initial-thought/" rel="prev">Galaxy Nexus initial thoughts</a> </div>
+			   <div class="post-next"><a href="http://bryansiegel.com/2011/11/galaxy-nexus-phones-there/" rel="next">Galaxy Nexus. Is it really one of the best phones out there?</a></div>
+        </div>      
+   
+       
+       
+       
+  
+ 
+
+	
+
+     
+      
+
+
+ <div id="copyright">
+ <p>&copy; 2018 Bryan Siegel </p>
+ </div><!-- // copyright -->   
+     
+</div><!-- // wrap -->   
+
+	<script type='text/javascript' src='http://bryansiegel.com/wp-content/themes/gridly/js/jquery.masonry.min.js?ver=78b05ff4cda4e06fd3f489c68646b240'></script>
+<script type='text/javascript' src='http://bryansiegel.com/wp-content/themes/gridly/js/functions.js?ver=78b05ff4cda4e06fd3f489c68646b240'></script>
+<script type='text/javascript' src='http://bryansiegel.com/wp-includes/js/wp-embed.min.js?ver=78b05ff4cda4e06fd3f489c68646b240'></script>
+<script type='text/javascript' src='http://bryansiegel.com/wp-includes/js/comment-reply.min.js?ver=78b05ff4cda4e06fd3f489c68646b240'></script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1368144-24', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 11/226 objects using disk
+Page Caching using disk: enhanced 
+Database Caching using disk
+
+Served from: bryansiegel.com @ 2018-05-19 05:44:38 by W3 Total Cache
+-->

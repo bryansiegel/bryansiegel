@@ -1,0 +1,8 @@
+---
+layout: post
+title: Tis the day I uninstall Dreamweaver
+date: 2008-07-22 21:39
+comments: true
+categories: []
+---
+Oh Dreamweaver how you served me well. You were there when I built my first website, stayed there with me those long hours while I designed websites, and eventually SEO. It's hard to say goodbye, well.... not really. You were buggy, the WYSIWYG was off most of the time and you don't have adequate asp.net support. I'm moving on to Microsoft Expressions for most of my design.<br /><br />For those that wish to play around with an easier editor should <a href="http://www.microsoft.com/expression/">try Microsoft Expression Web 2</a>. I've been using it for the last few months and noticed that Dreamweaver was just taking up space.<br /><br /><h3>There are a few drawbacks to the new Microsoft Expression web editor I've found which are,</h3><ul><li>You can include a pipe (|) charactor in the username when you sign into FTP</li><li>There isn't any php intellisence</li><li>The FTP is really slow</li><li>There isn't a manage sites section like in Dreamweaver, it takes you to the folder that you save your files</li></ul><h3>Here is why I'm switching to Microsoft Expression Web</h3><ul><li>The editor for Expression Web is easy to use. </li><li>It keeps up with today's web standards. </li><li>The css everything is bar none the best I've seen. </li><li>Great Asp.net support</li><li>I can see MasterPages</li><li>The interface is not as intimidating (Dreamweaver just looks too busy)</li><li>I have the ability to look at websites before I load them to the server with different screen resolutions</li><li>And many many more....</li></ul>

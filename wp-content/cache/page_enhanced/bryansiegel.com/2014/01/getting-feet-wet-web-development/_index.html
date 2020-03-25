@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+	
+    <html lang="en-US" prefix="og: http://ogp.me/ns#"> 
+	<meta charset="UTF-8" />
+	
+	<meta name="description" content="Gadgets, Geek and Web Development"/>
+    <link rel="pingback" href="http://bryansiegel.com/xmlrpc.php" />
+    
+
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" media="all" href="http://bryansiegel.com/wp-content/themes/gridly/css/reset.css" />
+
+     
+   
+            <link rel="stylesheet" href="http://bryansiegel.com/wp-content/themes/gridly/css/light.css"/> 
+        
+        	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+      	<link rel="stylesheet" type="text/css" media="handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px)" href="http://bryansiegel.com/wp-content/themes/gridly/css/mobile.css" />
+        
+ 	<!-- wp head -->
+	
+<!-- This site is optimized with the Yoast SEO plugin v7.5.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Getting Your Feet Wet with Web Development - Bryan Siegel</title>
+<link rel="canonical" href="http://bryansiegel.com/2014/01/getting-feet-wet-web-development/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Getting Your Feet Wet with Web Development - Bryan Siegel" />
+<meta property="og:url" content="http://bryansiegel.com/2014/01/getting-feet-wet-web-development/" />
+<meta property="og:site_name" content="Bryan Siegel" />
+<meta property="article:section" content="apache2" />
+<meta property="article:published_time" content="2014-01-05T22:09:06+00:00" />
+<meta property="article:modified_time" content="2014-01-05T23:17:51+00:00" />
+<meta property="og:updated_time" content="2014-01-05T23:17:51+00:00" />
+<meta property="og:image" content="http://bryansiegel.com/wp-content/uploads/2014/01/sublime.png" />
+<meta property="og:image:width" content="1672" />
+<meta property="og:image:height" content="1049" />
+<meta property="og:image:alt" content="Learn to Code" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Bryan Siegel &raquo; Feed" href="http://bryansiegel.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Bryan Siegel &raquo; Comments Feed" href="http://bryansiegel.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/bryansiegel.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=78b05ff4cda4e06fd3f489c68646b240"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js?ver=78b05ff4cda4e06fd3f489c68646b240'></script>
+<script type='text/javascript' src='http://bryansiegel.com/wp-content/plugins/plum-code-box/chili/jquery.chili-2.2.js?ver=2.2'></script>
+<script type='text/javascript' src='http://bryansiegel.com/wp-content/plugins/plum-code-box/chili/recipes.js?ver=2.2'></script>
+<link rel='https://api.w.org/' href='http://bryansiegel.com/wp-json/' />
+<link rel='shortlink' href='http://bryansiegel.com/?p=578' />
+<link rel="alternate" type="application/json+oembed" href="http://bryansiegel.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbryansiegel.com%2F2014%2F01%2Fgetting-feet-wet-web-development%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://bryansiegel.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbryansiegel.com%2F2014%2F01%2Fgetting-feet-wet-web-development%2F&#038;format=xml" />
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//bryansiegel.com/?wordfence_lh=1&hid=5E6083FF8C041D91EFB74A284F622B48');
+</script>    
+	<link rel="author" href="https://plus.google.com/107021327353878189947/posts" />
+  <style type="text/css">
+.title_color a{ color:#444444; }
+  </style>
+
+</head>
+
+<body class="post-template-default single single-post postid-578 single-format-standard">
+	
+<div id="wrap">
+	<div id="header">
+        
+    	<div id="logo">
+        	<a href="http://bryansiegel.com/"  title="Bryan Siegel" rel="home">
+            
+                                        <img src="http://bryansiegel.com/wp-content/themes/gridly/images/light/logo.png" alt="Bryan Siegel">
+                             </a>
+            
+       </div>
+ 	 	 <div id="nav"><ul><li><span class="title_color"><a href="http://bryansiegel.com/who-cares-about-bryan-siegel/">Who Cares About Bryan Siegel?</a></span></li><li><a href="https://twitter.com/BryanSiegel" title="Bryan Siegel on Twitter"><img src="http://bryansiegel.com/images/twitter.png" alt="Bryan Siegel on Twitter" /></a></li></ul></div>
+	   
+
+   </div>
+         
+				
+           
+       
+   		<div id="post-578" class="post-578 post type-post status-publish format-standard has-post-thumbnail hentry category-apache2 category-google category-php category-sublime-text-2 category-text-editors category-web-development">
+						
+				<div class="gridly-image"><img width="770" height="483" src="http://bryansiegel.com/wp-content/uploads/2014/01/sublime-770x483.png" class="attachment-detail-image size-detail-image wp-post-image" alt="Learn to Code" srcset="http://bryansiegel.com/wp-content/uploads/2014/01/sublime-770x483.png 770w, http://bryansiegel.com/wp-content/uploads/2014/01/sublime-300x188.png 300w, http://bryansiegel.com/wp-content/uploads/2014/01/sublime-1024x642.png 1024w, http://bryansiegel.com/wp-content/uploads/2014/01/sublime-310x194.png 310w" sizes="(max-width: 770px) 100vw, 770px" /></div>
+                <div class="gridly-category"><p><a href="http://bryansiegel.com/category/apache2/" rel="category tag">apache2</a>, <a href="http://bryansiegel.com/category/google/" rel="category tag">Google</a>, <a href="http://bryansiegel.com/category/php/" rel="category tag">php</a>, <a href="http://bryansiegel.com/category/sublime-text-2/" rel="category tag">sublime text 2</a>, <a href="http://bryansiegel.com/category/text-editors/" rel="category tag">text editors</a>, <a href="http://bryansiegel.com/category/web-development/" rel="category tag">Web Development</a></p></div>
+                                
+
+       			<div class="gridly-copy">
+                <h1>Getting Your Feet Wet with Web Development</h1>
+                 <p class="gridly-date"> January 5, 2014</p>
+           		 <p>Over the last few months I&#8217;ve been asked on where to start with web development and what tools do you need. So here&#8217;s a post that addresses the general landscape and some tools to get you started.</p>
+<h3>The Landscape</h3>
+<p>There are many languages out there. None of them are perfect. Some are easier to learn but which one you choose will depend upon you. When it comes to programming languages developers/designers tend to think that theirs is the best. It&#8217;s kinda like a religion; keep an open mind because the foundation of programming languages and how they work are the same. Once you get good at one learning another is easier. The more that you know the better overall view of programming that you will have.</p>
+<h3>The &#8220;Front end&#8221; vs &#8220;The Back End&#8221;</h3>
+<p>The Front end and Back end are two terms that you might or might not hear within your learning track. The &#8220;Front End&#8221; is what the customer/client/visitor sees within their web browser. The &#8220;Front End&#8221; consists of HTML, CSS and Javascript. The &#8220;Back End&#8221; tends to be the database, api&#8217;s or the programming logic or smarts of the application. The &#8220;Back End&#8221; consists of an army of languages, databases, and different ways to call an api(don&#8217;t worry if you don&#8217;t know what an api is,  you&#8217;re new and it&#8217;s not necessary to know when you&#8217;re starting out).</p>
+<h3>The General Mindset of Learning</h3>
+<p>There are all types of way&#8217;s of learning how to program for the web. You can learn best by videos via Youtube, or by reading articles on websites, or you can learn by doing failing along the way. The one piece of advice that you should live by is that you will not know everything. It&#8217;s impossible. The beauty about programming for the web is the journey. What I love is the constant learning and seeing my creations come to life on the internet for the world to see. Don&#8217;t be afraid to fail. Don&#8217;t be afraid to ask for help and the best advice that I can possible give you is to learn how to use Google. Google is your friend. If you run into a problem start there, trust me you&#8217;re not alone.</p>
+<h3>What you must know</h3>
+<p>In order to program for the web you must know HTML. Without HTML you cannot program for the web. The plethora of languages and databases that I spoke of in the &#8220;Back End&#8221; section a few paragraphs back are all trying to accomplish the same thing. To spit out HTML (don&#8217;t worry if you don&#8217;t get this concept yet, I&#8217;ll explain it in a little bit). To understand HTML I highly recommend that you start with <a href="https://www.youtube.com/watch?v=cqszz_OfAFQ&amp;list=PLC1322B5A0180C946">these Youtube Videos</a>.  Start off with the 3rd video and skip ahead to my portion of <strong>Your Web Server, Programming Language &amp; Database </strong>below to get the tools that you need.</p>
+<p>You must know how to use a computer. This is a duh part but you must have advanced knowledge of your computer. If you&#8217;re using windows you must know how to set your environment paths and a few other things in the long run but when you&#8217;re starting out it&#8217;s not that important.</p>
+<p>The most important thing that you must know is how to use Google and when. When you have a problem use Google.</p>
+<h3>The Toolset of a Web Developer</h3>
+<p>The &#8220;Toolset&#8221; is a collection of tools that you use in order to program. There&#8217;s allot out there. The tools that programmers use is kinda like a religion too. There&#8217;s no right or wrong answer here. The tools that you use depend upon you, what aspect of programming that you grab a hold of and if/how much you would like to pay.</p>
+<h3>Tools that I recommend that you download</h3>
+<p><a title="Sublime Text 3" href="http://www.sublimetext.com/3">Sublime Text 3</a> &#8211; It&#8217;s in beta but it&#8217;s solid to use and a great tool. Spend a few hours playing around with Sublime Text. It&#8217;s a tool that pro&#8217;s and amateurs use. After you watch the video below I recommend that you check out <a href="https://www.youtube.com/playlist?list=PLLnpHn493BHEYF4EX3sAhVG2rTqCvLnsP">these videos</a></p>
+<p><strong>Here&#8217;s a video to get you started</strong></p>
+<p><iframe src="//www.youtube.com/embed/kwFIMuaQals" height="315" width="560" allowfullscreen="" frameborder="0"></iframe></p>
+<h3>Your Web Server, Programming Language &amp; Database</h3>
+<p><strong>Windows</strong> &#8211; <a title="Xampp" href="http://www.apachefriends.org/en/xampp.html">Xampp</a></p>
+<p><strong>Mac</strong> &#8211; <a title="Mamp" href="http://www.mamp.info/en/downloads/index.html?utm_term=Recent%20php%20Bookmarks%20on%20Delicious">Mamp</a></p>
+<p><strong>Linux</strong> &#8211; I highly doubt that your running Linux.</p>
+<h3>Apache and what the hell is a web server</h3>
+<p>In my back end portion I had mentioned that there are many programming languages and databases. In order for the programming language to present HTML to the user you need a web server. The job of this web server is kind of translate the programming language among other functions. The server that I recommend for newbies is Apache. Apache is everywhere, it&#8217;s the most used online and there are plenty of tools online that get you started with zero configuration. In the beginning you should just know about Apache. Once you become more seasoned then I recommend that you dig in deeper.</p>
+<h3>Mysql</h3>
+<p>Mysql is the most widely used database on the internet. In a nutshell a database is very similar to an excel document. This is where you store information such as users and what ever information your application will hold. Here&#8217;s a <a href="https://www.youtube.com/results?search_query=mysql+basics&amp;sm=3">list of videos</a> to get you started. Watch a few but at the beginning you should just have a general understanding of what they are. Once you get your feet wet then I highly recommend that you learn more about them.</p>
+<h3>PHP</h3>
+<p><a title="PHP" href="http://php.net/">PHP</a> is the most widely used programming language on the web. It&#8217;s really easy to get started, understand and frankly the one that allot of web developers use to get their fee wet.</p>
+<h3>From Interest to Your First Steps</h3>
+<p>Watch <a href="https://www.youtube.com/watch?v=iCUV3iv9xOs&amp;list=PL442FA2C127377F07">this playlist on Youtube</a> from beginning to end. The New Boston is in my personal opinion the best way to learn the basics of a majority of popular programming languages. Not only should you watch but you should program along with his tutorials.</p>
+<h3>Well that should get you started</h3>
+<p>That should get you started in the wonderful world of Web Programming. I&#8217;ve given you the basics that will hopefully get you started in your early stages of learning. Don&#8217;t worry if you don&#8217;t get everything, this is just your introduction to it all. And don&#8217;t be afraid to tell yourself that this industry/profession isn&#8217;t right for you. Please don&#8217;t give up just because it&#8217;s hard or overwhelming, because it&#8217;s hard for everyone. Watch the videos that I recommend more than once if you don&#8217;t get it and by all means use Google if you don&#8217;t understand a concept or run into any brick walls.</p>
+ 
+                 <p></p>
+
+                
+                <div class="clear"></div>
+				
+
+			
+
+
+ 
+                </div>
+
+
+                
+                
+       </div>
+       
+		       
+       <div class="post-nav">
+               <div class="post-prev"><a href="http://bryansiegel.com/2013/12/winding-2013/" rel="prev">Winding Down 2013</a> </div>
+			   <div class="post-next"><a href="http://bryansiegel.com/2014/01/nansy-pamsy-unicorn-rainbow-community-phenomena/" rel="next">The Nansy Pamsy Unicorn &#038; Rainbow Community Phenomena</a></div>
+        </div>      
+   
+       
+       
+       
+  
+ 
+
+	
+
+     
+      
+
+
+ <div id="copyright">
+ <p>&copy; 2018 Bryan Siegel </p>
+ </div><!-- // copyright -->   
+     
+</div><!-- // wrap -->   
+
+	<script type='text/javascript' src='http://bryansiegel.com/wp-content/themes/gridly/js/jquery.masonry.min.js?ver=78b05ff4cda4e06fd3f489c68646b240'></script>
+<script type='text/javascript' src='http://bryansiegel.com/wp-content/themes/gridly/js/functions.js?ver=78b05ff4cda4e06fd3f489c68646b240'></script>
+<script type='text/javascript' src='http://bryansiegel.com/wp-includes/js/wp-embed.min.js?ver=78b05ff4cda4e06fd3f489c68646b240'></script>
+<script type='text/javascript' src='http://bryansiegel.com/wp-includes/js/comment-reply.min.js?ver=78b05ff4cda4e06fd3f489c68646b240'></script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1368144-24', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 0/255 objects using disk
+Page Caching using disk: enhanced 
+Database Caching using disk
+
+Served from: bryansiegel.com @ 2018-05-18 20:13:23 by W3 Total Cache
+-->

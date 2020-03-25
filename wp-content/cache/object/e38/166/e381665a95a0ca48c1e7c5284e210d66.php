@@ -1,0 +1,16 @@
+r�~\<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:293;s:11:"post_author";s:1:"2";s:9:"post_date";s:19:"2013-01-01 17:42:04";s:13:"post_date_gmt";s:19:"2013-01-01 17:42:04";s:12:"post_content";s:2210:"<strong><em>Update: With the advancements that PHP has made such as the wonderful Laravel framework, Composer and the new built in webserver I've decided to focus on PHP instead of Python for my language of the year while focusing more on Javascript which has always been my weak point in development.</em></strong>
+
+2012 was rough for me personally. My free time involved working  a side job and I was unsatisfied with my day job. I gained 30 pounds and smoked more cigarettes than I should of and we moved into another house (which may seem like a good thing but I hate moving and the house is smaller). I'm not the type of person who feels sorry for myself and rarely do you ever see me in a bad mood but I felt the negativity trying to take hold of me everyday because I didn't feel as though there was a way out. Then one lucky day in November I saw light at the end of the tunnel. I got a new job.
+
+Not only did I get a new job, but I got a new job at a good company where I feel as though I can make a positive impact around positive people. The hardest part of my old job was the negative people (mostly).
+
+<strong>My plans for 2013</strong>
+<ul>
+	<li>My biggest hurdle has been cigarettes. The thing is I love to smoke. I've used smoking as a crutch for many years and even though we've had some good and bad times for the sake of my family it's time for me to quit.</li>
+	<li>I plan on focusing more on personal projects. Every project that I work on is one to make money. 2013 I plan on creating fun projects to give me a little break.</li>
+	<li>My programming language of the year is Python. In 2012 I spent allot of time with PHP and frameworks, but i need to get back into learning a language a year.</li>
+	<li>New car. I'm cheap. I spend thousands of dollars on computers and gadgets but never my car. This year I plan on buying a newer car.</li>
+	<li>Exercise. I've let myself go. I plan on exercising 30 minutes a day in the morning to start.</li>
+	<li>Blog more. I let this blog go by the waist side because I was working so much. I plan on blogging at least one time per month.</li>
+</ul>
+Well I'm excited about what's to come in 2013 vs the negative 2012 that I had.";s:10:"post_title";s:24:"What's in store for 2013";s:12:"post_excerpt";s:0:"";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:6:"closed";s:11:"ping_status";s:4:"open";s:13:"post_password";s:0:"";s:9:"post_name";s:23:"whats-in-store-for-2013";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2013-11-08 02:37:22";s:17:"post_modified_gmt";s:19:"2013-11-08 02:37:22";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";i:0;s:4:"guid";s:29:"http://bryansiegel.com/?p=293";s:10:"menu_order";i:0;s:9:"post_type";s:4:"post";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";s:6:"filter";s:3:"raw";}}

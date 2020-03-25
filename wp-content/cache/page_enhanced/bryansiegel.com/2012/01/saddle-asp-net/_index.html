@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+	
+    <html lang="en-US" prefix="og: http://ogp.me/ns#"> 
+	<meta charset="UTF-8" />
+	
+	<meta name="description" content="Gadgets, Geek and Web Development"/>
+    <link rel="pingback" href="http://bryansiegel.com/xmlrpc.php" />
+    
+
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" media="all" href="http://bryansiegel.com/wp-content/themes/gridly/css/reset.css" />
+
+     
+   
+            <link rel="stylesheet" href="http://bryansiegel.com/wp-content/themes/gridly/css/light.css"/> 
+        
+        	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+      	<link rel="stylesheet" type="text/css" media="handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px)" href="http://bryansiegel.com/wp-content/themes/gridly/css/mobile.css" />
+        
+ 	<!-- wp head -->
+	
+<!-- This site is optimized with the Yoast SEO plugin v7.5.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Back in the Saddle with Asp.net - Bryan Siegel</title>
+<link rel="canonical" href="http://bryansiegel.com/2012/01/saddle-asp-net/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Back in the Saddle with Asp.net - Bryan Siegel" />
+<meta property="og:url" content="http://bryansiegel.com/2012/01/saddle-asp-net/" />
+<meta property="og:site_name" content="Bryan Siegel" />
+<meta property="article:section" content="asp.net" />
+<meta property="article:published_time" content="2012-01-14T10:39:52+00:00" />
+<meta property="article:modified_time" content="2013-05-26T02:57:08+00:00" />
+<meta property="og:updated_time" content="2013-05-26T02:57:08+00:00" />
+<meta property="og:image" content="http://bryansiegel.com/wp-content/uploads/2012/01/asp-net-hosting.jpeg" />
+<meta property="og:image:width" content="640" />
+<meta property="og:image:height" content="480" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Bryan Siegel &raquo; Feed" href="http://bryansiegel.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Bryan Siegel &raquo; Comments Feed" href="http://bryansiegel.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Bryan Siegel &raquo; Back in the Saddle with Asp.net Comments Feed" href="http://bryansiegel.com/2012/01/saddle-asp-net/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/bryansiegel.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=acfc99e01e396c129ae6cbd412ccb3bb"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js?ver=acfc99e01e396c129ae6cbd412ccb3bb'></script>
+<script type='text/javascript' src='http://bryansiegel.com/wp-content/plugins/plum-code-box/chili/jquery.chili-2.2.js?ver=2.2'></script>
+<script type='text/javascript' src='http://bryansiegel.com/wp-content/plugins/plum-code-box/chili/recipes.js?ver=2.2'></script>
+<link rel='https://api.w.org/' href='http://bryansiegel.com/wp-json/' />
+<link rel='shortlink' href='http://bryansiegel.com/?p=207' />
+<link rel="alternate" type="application/json+oembed" href="http://bryansiegel.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbryansiegel.com%2F2012%2F01%2Fsaddle-asp-net%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://bryansiegel.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbryansiegel.com%2F2012%2F01%2Fsaddle-asp-net%2F&#038;format=xml" />
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		if (window.wfLogHumanRan) { return; }
+		window.wfLogHumanRan = true;
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//bryansiegel.com/?wordfence_lh=1&hid=94AE3ABB8C84B894F9F6DB45468FE735');
+</script>    
+	<link rel="author" href="https://plus.google.com/107021327353878189947/posts" />
+  <style type="text/css">
+.title_color a{ color:#444444; }
+  </style>
+
+</head>
+
+<body class="post-template-default single single-post postid-207 single-format-standard">
+	
+<div id="wrap">
+	<div id="header">
+        
+    	<div id="logo">
+        	<a href="http://bryansiegel.com/"  title="Bryan Siegel" rel="home">
+            
+                                        <img src="http://bryansiegel.com/wp-content/themes/gridly/images/light/logo.png" alt="Bryan Siegel">
+                             </a>
+            
+       </div>
+ 	 	 <div id="nav"><ul><li><span class="title_color"><a href="http://bryansiegel.com/who-cares-about-bryan-siegel/">Who Cares About Bryan Siegel?</a></span></li><li><a href="https://twitter.com/BryanSiegel" title="Bryan Siegel on Twitter"><img src="http://bryansiegel.com/images/twitter.png" alt="Bryan Siegel on Twitter" /></a></li></ul></div>
+	   
+
+   </div>
+         
+				
+           
+       
+   		<div id="post-207" class="post-207 post type-post status-publish format-standard has-post-thumbnail hentry category-asp-net">
+						
+				<div class="gridly-image"><img width="640" height="480" src="http://bryansiegel.com/wp-content/uploads/2012/01/asp-net-hosting.jpeg" class="attachment-detail-image size-detail-image wp-post-image" alt="" srcset="http://bryansiegel.com/wp-content/uploads/2012/01/asp-net-hosting.jpeg 640w, http://bryansiegel.com/wp-content/uploads/2012/01/asp-net-hosting-300x225.jpeg 300w, http://bryansiegel.com/wp-content/uploads/2012/01/asp-net-hosting-310x232.jpeg 310w" sizes="(max-width: 640px) 100vw, 640px" /></div>
+                <div class="gridly-category"><p><a href="http://bryansiegel.com/category/asp-net/" rel="category tag">asp.net</a></p></div>
+                                
+
+       			<div class="gridly-copy">
+                <h1>Back in the Saddle with Asp.net</h1>
+                 <p class="gridly-date"> January 14, 2012</p>
+           		 <p><strong>Update</strong><br />
+It&#8217;s May 2012 and the projects keep coming in. While I had a few months of heavy Asp.net web development I&#8217;ve been focused on more PHP projects and a few Ruby on Rails projects.</p>
+<p>My Twitter account has been <a title="Bryan Siegel on Twitter" href="https://twitter.com/BryanSiegel" target="_blank">left abandoned</a> since January 6th and <a title="Bryan Siegel" href="https://plus.google.com/107021327353878189947/posts" target="_blank">Google+</a> since December 31st. Santa got me a <a title="Lenovo 120e kicks ass" href="http://www.youtube.com/watch?v=Sb-ns5f2dV4" target="_blank">Lenovo 120e</a> and Bryan&#8217;s selfish self bought an 8gb ram upgrade and ssd. I&#8217;m rocking Visual Studio 2010 the pro edition with Git (thanks Ruby on Rails), and a <a title="WekeRoad Ink theme for Visual Studio" href="http://studiostyl.es/schemes/wekeroad-ink" target="_blank">custom color theme</a> because it&#8217;s easier on my eyes and frankly looks cool.</p>
+<p>The last 2 years I cut back on Asp.net (I still worked on projects) and primarily focused on Ruby on Rails and some PHP. 2011 was the year of e-commerce, blogs, a CMS and a whole lot of E-Commerce SEO and PPC. 2012 is looking like an even crazier year with bigger and better projects.</p>
+<p><strong>Where do you find the time?</strong></p>
+<p>My hobby is learning as much about the Internet as I can. I love code, Internet Marketing comes natural and frankly I&#8217;m a genius with time management. You see&#8230; Star Trek has had a major influence on me. If you&#8217;ve never seen Star Trek the next generation I highly recommend that you watch at least the last 4 episodes of the 7th season. In the Star Trek Universe one of the messages that the show conveys is that humans constantly strive to better themselves. You see I have a fond memory of my father reading books about becoming a better person. You know those books that teach you confidence and the other load of crap those 5 dolloar books at the gas station sell you. I guess bettering myself has roots from my fathers genes and Star Trek just kicked them into gear is the way I interpret it.</p>
+<p><strong>Back to the reason behind the post</strong></p>
+<p>I&#8217;ve already stretched myself thin. It&#8217;s Friday night at 2:30 a.m (I&#8217;m completely sober man). I decided to take a break on the back end of an Asp.net 4.0 application that is beyond anything I accomplished last year. Before I <a title="Thanks Ben. I never thought of that" href="http://msdn.microsoft.com/en-us/library/dtkwfdky.aspx" target="_blank">encrypt my Web.config file</a> I decided to take a break and write a quick post with my usual taste of bad grammar and geek.</p>
+<p>I&#8217;m going to be busy for awhile. Man this is going to be fun.</p>
+ 
+                 <p></p>
+
+                
+                <div class="clear"></div>
+				
+
+			
+
+
+ 
+                </div>
+
+
+                
+                
+       </div>
+       
+		       
+       <div class="post-nav">
+               <div class="post-prev"><a href="http://bryansiegel.com/2011/12/google-currents-nice-idea-kinda/" rel="prev">My Initial Thoughts on Google Currents for Android and IOS</a> </div>
+			   <div class="post-next"><a href="http://bryansiegel.com/2012/12/wheres-my-google-nexus-tv/" rel="next">Where&#8217;s my Google Nexus TV</a></div>
+        </div>      
+   
+       
+       
+       
+  
+ 
+
+	
+
+     
+      
+
+
+ <div id="copyright">
+ <p>&copy; 2018 Bryan Siegel </p>
+ </div><!-- // copyright -->   
+     
+</div><!-- // wrap -->   
+
+	<script type='text/javascript' src='http://bryansiegel.com/wp-content/themes/gridly/js/jquery.masonry.min.js?ver=acfc99e01e396c129ae6cbd412ccb3bb'></script>
+<script type='text/javascript' src='http://bryansiegel.com/wp-content/themes/gridly/js/functions.js?ver=acfc99e01e396c129ae6cbd412ccb3bb'></script>
+<script type='text/javascript' src='http://bryansiegel.com/wp-includes/js/wp-embed.min.js?ver=acfc99e01e396c129ae6cbd412ccb3bb'></script>
+<script type='text/javascript' src='http://bryansiegel.com/wp-includes/js/comment-reply.min.js?ver=acfc99e01e396c129ae6cbd412ccb3bb'></script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1368144-24', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 9/47 objects using disk
+Page Caching using disk: enhanced 
+Database Caching using disk (Request-wide modification query)
+
+Served from: bryansiegel.com @ 2018-07-16 21:59:06 by W3 Total Cache
+-->

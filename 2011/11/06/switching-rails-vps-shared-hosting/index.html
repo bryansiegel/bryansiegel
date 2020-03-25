@@ -1,0 +1,326 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Switching from a Rails VPS to Shared Hosting - Bryan Siegel</title>
+  <meta name="author" content="Bryan Siegel">
+
+  
+  <meta name="description" content="Update: August 10th 2012 I&#8217;ve joined Railsplayground. I&#8217;m real happy so far. Once I get some more time I plan on writing up an article. &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://yoursite.com/2011/11/06/switching-rails-vps-shared-hosting/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Bryan Siegel" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Bryan Siegel</a></h1>
+  
+    <h2>Gadgets, Geek and Web Development</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:yoursite.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Switching From a Rails VPS to Shared Hosting</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-11-06T04:08:00-08:00" pubdate data-updated="true">Nov 6<span>th</span>, 2011</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p><strong>Update: August 10th 2012</strong></p>
+
+<p>I&#8217;ve joined <a href="http://railsplayground.com/" title="Railsplayground">Railsplayground</a>. I&#8217;m real happy so far. Once I get some more time I plan on writing up an article.</p>
+
+
+<p><strong>Update: June 27th 2012</strong></p>
+
+<p><em>Hosting Rails is part of Jumpline now. I just contact customer support and they no longer offer Ruby on Rails hosting.</em></p>
+
+<p>For the last year or two (I&#8217;m getting old I can&#8217;t remember crap) I&#8217;ve been doing allot of Ruby on Rails development. When I first got into Ruby on Rails I loved it. It was easy to create a basic CRUD application, the DRY (don&#8217;t repeat yourself) methodology and above all else the structure of a Rails app. If I were to look at someone else&#8217;s Rails app I&#8217;d immediately know where to look to see how the thing was put together. I can&#8217;t express how many times I&#8217;ve almost thrown up after looking at other people&#8217;s Asp.net and PHP code. With all of that said the one thing that urks me is how much of a cluster fuck it is to host a rails app.</p>
+
+<h3>The Shittiest Part of Ruby on Rails is hosting</h3>
+
+
+<p>I spent allot of money my first month of rails development. Primarily because I had a hard time finding a good host. I didn&#8217;t feel like becoming a system admin so that I could get a few of my rails apps online. After my long search I decided to go with <a title="Webbynode" href="http://webbynode.com/">Webbynode</a>. Webbynode was by far the easiest way (at the time) to host my rails apps. I&#8217;ve had a few problems with Webbynode for the last couple of months and decided it was time to move onto another host. This time instead of a VPS I decided I wanted to see how the shared hosting offerings were nowaday&#8217;s.</p>
+
+<h3>Why a Shared Host</h3>
+
+
+<p>I build allot of Ruby on Rails applications under lock and key. Most of them finished some of them not. I tend to get an idea, build the application, hit a road block then I dump the project for awhile and come back to it later. I needed a host where I have an unlimited amount of domains for my Ruby on Rails applications. Bandwidth isn&#8217;t a concern because I don&#8217;t advertise any of my Ruby on Rails applications.</p>
+
+<h3>Shared Hosting isn&#8217;t that bad anymore</h3>
+
+
+<p>While Shared hosting was a pain when I first started Rails dev it isn&#8217;t that bad anymore. I looked around at a few hosts and contacted support to see how fast they responded and decided to go with <del>Hosting Rail</del>s (Hosting Rails is now Jumpline they no longer support Rails hosting). It was $9.95 U.S. on a month to month basis and it&#8217;s real easy to setup a Rails application.</p>
+
+<h3>The Account Screen</h3>
+
+
+<p>Once you log into your account you&#8217;ll be greeted with your account information such as your name, phone number and address. While the login screen is looks old it&#8217;s simple and to the point which is different than Godaddy&#8217;s bloated back end system.</p>
+
+<h3>My Products Tab</h3>
+
+
+<p>Things start to get interesting under the My Products tab. This is pretty much the gateway to your cpanel and administration controls. Under the view details tab is where you can edit ftp information, edit your cpanel password and other administrative features. The control panel link takes you directly to their implementation of cpanel. For those that have worked on a LAMP stack have more than likely used cpanel before. What I found interesting though is the lack of nameserver information anywhere. Luckily your nameserver information was emailed to you once you opened the account. I could have missed it but I&#8217;m pretty sure it&#8217;s not anywhere within their administrative interfaces.</p>
+
+<h3>Initial Setup</h3>
+
+
+<p>This may sound strange but there was none. My application was already made for me. I logged into FTP and sure enough my basic application was there. All that I had to do was ssh into the server, upload my app and migrate mysql and presto my application was loaded and ready to go.</p>
+
+<h3>Conclusion</h3>
+
+
+<p>I&#8217;m pretty happy with Hosting Rails so far. The setup was painless and I love the fact that I have cpanel for my Rails apps.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Bryan Siegel</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-11-06T04:08:00-08:00" pubdate data-updated="true">Nov 6<span>th</span>, 2011</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://yoursite.com/2011/11/06/switching-rails-vps-shared-hosting/" data-via="bryansiegel" data-counturl="http://yoursite.com/2011/11/06/switching-rails-vps-shared-hosting/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="small"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2011/10/19/galaxy-nexus-initial-thought/" title="Previous Post: Galaxy Nexus initial thoughts">&laquo; Galaxy Nexus initial thoughts</a>
+      
+      
+        <a class="basic-alignment right" href="/2011/12/08/t-mobile-usa-carier-iq-phone-list/" title="Next Post: T-Mobile USA Carier IQ Phone List">T-Mobile USA Carier IQ Phone List &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2012/08/11/new-blog-design-new-blog-platform-new-host-same-old-bryan/">New Blog Design, New Blog Platform, New Host, Same Old Bryan</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/01/14/saddle-asp-net/">Back in the Saddle with Asp.net</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/12/09/google-currents-nice-idea-kinda/">My Initial Thoughts on Google Currents for Android and IOS</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/12/08/t-mobile-usa-carier-iq-phone-list/">T-Mobile USA Carier IQ Phone List</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/11/06/switching-rails-vps-shared-hosting/">Switching from a Rails VPS to Shared Hosting</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("bryansiegel", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/bryansiegel" class="twitter-follow-button" data-show-count="false">Follow @bryansiegel</a>
+  
+</section>
+
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/107021327353878189947?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Bryan Siegel
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'bryansiegelgadgetsgeekandwebdevelopment';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://yoursite.com/2011/11/06/switching-rails-vps-shared-hosting/';
+        var disqus_url = 'http://yoursite.com/2011/11/06/switching-rails-vps-shared-hosting/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

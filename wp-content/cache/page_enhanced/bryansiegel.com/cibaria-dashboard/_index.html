@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+	
+    <html lang="en-US" prefix="og: http://ogp.me/ns#"> 
+	<meta charset="UTF-8" />
+	
+	<meta name="description" content="Gadgets, Geek and Web Development"/>
+    <link rel="pingback" href="http://bryansiegel.com/xmlrpc.php" />
+    
+
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" media="all" href="http://bryansiegel.com/wp-content/themes/gridly/css/reset.css" />
+
+     
+   
+            <link rel="stylesheet" href="http://bryansiegel.com/wp-content/themes/gridly/css/light.css"/> 
+        
+        	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+      	<link rel="stylesheet" type="text/css" media="handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px)" href="http://bryansiegel.com/wp-content/themes/gridly/css/mobile.css" />
+        
+ 	<!-- wp head -->
+	
+<!-- This site is optimized with the Yoast SEO plugin v7.5.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Laravel Dashboard - Bryan Siegel</title>
+<meta name="robots" content="index,nofollow"/>
+<link rel="canonical" href="http://bryansiegel.com/cibaria-dashboard/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Laravel Dashboard - Bryan Siegel" />
+<meta property="og:url" content="http://bryansiegel.com/cibaria-dashboard/" />
+<meta property="og:site_name" content="Bryan Siegel" />
+<meta property="og:image" content="http://bryansiegel.com/wp-content/uploads/2016/04/dashboard.png" />
+<meta property="og:image:width" content="1843" />
+<meta property="og:image:height" content="855" />
+<meta property="og:image" content="http://bryansiegel.com/wp-content/uploads/2016/04/dashboard-responsive.png" />
+<meta property="og:image:width" content="728" />
+<meta property="og:image:height" content="837" />
+<meta property="og:image" content="http://bryansiegel.com/wp-content/uploads/2016/04/specsheets1.png" />
+<meta property="og:image:width" content="1867" />
+<meta property="og:image:height" content="761" />
+<meta property="og:image" content="http://bryansiegel.com/wp-content/uploads/2016/04/specsheets2.png" />
+<meta property="og:image:width" content="539" />
+<meta property="og:image:height" content="864" />
+<meta property="og:image" content="http://bryansiegel.com/wp-content/uploads/2016/04/nutrition-facts.png" />
+<meta property="og:image:width" content="1880" />
+<meta property="og:image:height" content="897" />
+<meta property="og:image" content="http://bryansiegel.com/wp-content/uploads/2016/04/nutrition-labels.png" />
+<meta property="og:image:width" content="421" />
+<meta property="og:image:height" content="776" />
+<meta property="og:image" content="http://bryansiegel.com/wp-content/uploads/2016/04/receiving-appointments.png" />
+<meta property="og:image:width" content="1857" />
+<meta property="og:image:height" content="858" />
+<meta property="og:image" content="http://bryansiegel.com/wp-content/uploads/2016/04/inventory.png" />
+<meta property="og:image:width" content="1887" />
+<meta property="og:image:height" content="888" />
+<meta property="og:image" content="http://bryansiegel.com/wp-content/uploads/2016/04/inventory-history.png" />
+<meta property="og:image:width" content="1872" />
+<meta property="og:image:height" content="865" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Bryan Siegel &raquo; Feed" href="http://bryansiegel.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Bryan Siegel &raquo; Comments Feed" href="http://bryansiegel.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/bryansiegel.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=78b05ff4cda4e06fd3f489c68646b240"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js?ver=78b05ff4cda4e06fd3f489c68646b240'></script>
+<script type='text/javascript' src='http://bryansiegel.com/wp-content/plugins/plum-code-box/chili/jquery.chili-2.2.js?ver=2.2'></script>
+<script type='text/javascript' src='http://bryansiegel.com/wp-content/plugins/plum-code-box/chili/recipes.js?ver=2.2'></script>
+<link rel='https://api.w.org/' href='http://bryansiegel.com/wp-json/' />
+<link rel='shortlink' href='http://bryansiegel.com/?p=824' />
+<link rel="alternate" type="application/json+oembed" href="http://bryansiegel.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbryansiegel.com%2Fcibaria-dashboard%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://bryansiegel.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbryansiegel.com%2Fcibaria-dashboard%2F&#038;format=xml" />
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		if (window.wfLogHumanRan) { return; }
+		window.wfLogHumanRan = true;
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//bryansiegel.com/?wordfence_lh=1&hid=9F967808AD052BD2F608D2B29F712B43');
+</script>    
+	<link rel="author" href="https://plus.google.com/107021327353878189947/posts" />
+  <style type="text/css">
+.title_color a{ color:#444444; }
+  </style>
+
+</head>
+
+<body class="page-template-default page page-id-824">
+	
+<div id="wrap">
+	<div id="header">
+        
+    	<div id="logo">
+        	<a href="http://bryansiegel.com/"  title="Bryan Siegel" rel="home">
+            
+                                        <img src="http://bryansiegel.com/wp-content/themes/gridly/images/light/logo.png" alt="Bryan Siegel">
+                             </a>
+            
+       </div>
+ 	 	 <div id="nav"><ul><li><span class="title_color"><a href="http://bryansiegel.com/who-cares-about-bryan-siegel/">Who Cares About Bryan Siegel?</a></span></li><li><a href="https://twitter.com/BryanSiegel" title="Bryan Siegel on Twitter"><img src="http://bryansiegel.com/images/twitter.png" alt="Bryan Siegel on Twitter" /></a></li></ul></div>
+	   
+
+   </div>
+         
+				
+           
+       
+   		<div id="post-824" class="post-824 page type-page status-publish hentry">
+        
+            
+             
+	
+                                
+
+       			<div class="gridly-copy">
+                <h1>Laravel Dashboard</h1>
+           		 <p><strong>Responsibilities:</strong></p>
+<ul>
+<li>Project Management</li>
+<li>Web Design</li>
+<li>Web Development</li>
+<li>Host</li>
+</ul>
+<p><strong>Framework/Programming Language</strong></p>
+<ul>
+<li>Laravel</li>
+<li>Bootstrap</li>
+<li>Jquery</li>
+</ul>
+<h1>Application Highlights</h1>
+<p><strong>Dashboard</strong></p>
+<p><a href="http://bryansiegel.com/wp-content/uploads/2016/04/dashboard.png" rel="attachment wp-att-825"><img class="alignnone size-medium wp-image-825" src="http://bryansiegel.com/wp-content/uploads/2016/04/dashboard-300x139.png" alt="dashboard" width="300" height="139" srcset="http://bryansiegel.com/wp-content/uploads/2016/04/dashboard-300x139.png 300w, http://bryansiegel.com/wp-content/uploads/2016/04/dashboard-768x356.png 768w, http://bryansiegel.com/wp-content/uploads/2016/04/dashboard-1024x475.png 1024w, http://bryansiegel.com/wp-content/uploads/2016/04/dashboard-310x144.png 310w, http://bryansiegel.com/wp-content/uploads/2016/04/dashboard-770x357.png 770w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p><strong>Responsive Layout</strong></p>
+<p><a href="http://bryansiegel.com/wp-content/uploads/2016/04/dashboard-responsive.png" rel="attachment wp-att-827"><img class="alignnone size-medium wp-image-827" src="http://bryansiegel.com/wp-content/uploads/2016/04/dashboard-responsive-261x300.png" alt="dashboard-responsive" width="261" height="300" srcset="http://bryansiegel.com/wp-content/uploads/2016/04/dashboard-responsive-261x300.png 261w, http://bryansiegel.com/wp-content/uploads/2016/04/dashboard-responsive-310x356.png 310w, http://bryansiegel.com/wp-content/uploads/2016/04/dashboard-responsive.png 728w" sizes="(max-width: 261px) 100vw, 261px" /></a></p>
+<p><strong>Specification Sheets</strong></p>
+<p><a href="http://bryansiegel.com/wp-content/uploads/2016/04/specsheets1.png" rel="attachment wp-att-828"><img class="alignnone size-medium wp-image-828" src="http://bryansiegel.com/wp-content/uploads/2016/04/specsheets1-300x122.png" alt="specsheets1" width="300" height="122" srcset="http://bryansiegel.com/wp-content/uploads/2016/04/specsheets1-300x122.png 300w, http://bryansiegel.com/wp-content/uploads/2016/04/specsheets1-768x313.png 768w, http://bryansiegel.com/wp-content/uploads/2016/04/specsheets1-1024x417.png 1024w, http://bryansiegel.com/wp-content/uploads/2016/04/specsheets1-310x126.png 310w, http://bryansiegel.com/wp-content/uploads/2016/04/specsheets1-770x314.png 770w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p><a href="http://bryansiegel.com/wp-content/uploads/2016/04/specsheets2.png" rel="attachment wp-att-834"><img class="alignnone size-medium wp-image-834" src="http://bryansiegel.com/wp-content/uploads/2016/04/specsheets2-187x300.png" alt="specsheets2" width="187" height="300" srcset="http://bryansiegel.com/wp-content/uploads/2016/04/specsheets2-187x300.png 187w, http://bryansiegel.com/wp-content/uploads/2016/04/specsheets2-310x497.png 310w, http://bryansiegel.com/wp-content/uploads/2016/04/specsheets2.png 539w" sizes="(max-width: 187px) 100vw, 187px" /></a></p>
+<p><strong>Nutrition Facts</strong></p>
+<p><a href="http://bryansiegel.com/wp-content/uploads/2016/04/nutrition-facts.png" rel="attachment wp-att-829"><img class="alignnone size-medium wp-image-829" src="http://bryansiegel.com/wp-content/uploads/2016/04/nutrition-facts-300x143.png" alt="nutrition-facts" width="300" height="143" srcset="http://bryansiegel.com/wp-content/uploads/2016/04/nutrition-facts-300x143.png 300w, http://bryansiegel.com/wp-content/uploads/2016/04/nutrition-facts-768x366.png 768w, http://bryansiegel.com/wp-content/uploads/2016/04/nutrition-facts-1024x489.png 1024w, http://bryansiegel.com/wp-content/uploads/2016/04/nutrition-facts-310x148.png 310w, http://bryansiegel.com/wp-content/uploads/2016/04/nutrition-facts-770x367.png 770w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p><a href="http://bryansiegel.com/wp-content/uploads/2016/04/nutrition-labels.png" rel="attachment wp-att-830"><img class="alignnone size-medium wp-image-830" src="http://bryansiegel.com/wp-content/uploads/2016/04/nutrition-labels-163x300.png" alt="nutrition-labels" width="163" height="300" srcset="http://bryansiegel.com/wp-content/uploads/2016/04/nutrition-labels-163x300.png 163w, http://bryansiegel.com/wp-content/uploads/2016/04/nutrition-labels-310x571.png 310w, http://bryansiegel.com/wp-content/uploads/2016/04/nutrition-labels.png 421w" sizes="(max-width: 163px) 100vw, 163px" /></a></p>
+<p><strong>Receiving Logs</strong></p>
+<p><a href="http://bryansiegel.com/wp-content/uploads/2016/04/receiving-appointments.png" rel="attachment wp-att-831"><img class="alignnone size-medium wp-image-831" src="http://bryansiegel.com/wp-content/uploads/2016/04/receiving-appointments-300x139.png" alt="receiving-appointments" width="300" height="139" srcset="http://bryansiegel.com/wp-content/uploads/2016/04/receiving-appointments-300x139.png 300w, http://bryansiegel.com/wp-content/uploads/2016/04/receiving-appointments-768x355.png 768w, http://bryansiegel.com/wp-content/uploads/2016/04/receiving-appointments-1024x473.png 1024w, http://bryansiegel.com/wp-content/uploads/2016/04/receiving-appointments-310x143.png 310w, http://bryansiegel.com/wp-content/uploads/2016/04/receiving-appointments-770x356.png 770w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p><strong>Inventory</strong></p>
+<p><a href="http://bryansiegel.com/wp-content/uploads/2016/04/inventory.png" rel="attachment wp-att-832"><img class="alignnone size-medium wp-image-832" src="http://bryansiegel.com/wp-content/uploads/2016/04/inventory-300x141.png" alt="inventory" width="300" height="141" srcset="http://bryansiegel.com/wp-content/uploads/2016/04/inventory-300x141.png 300w, http://bryansiegel.com/wp-content/uploads/2016/04/inventory-768x361.png 768w, http://bryansiegel.com/wp-content/uploads/2016/04/inventory-1024x482.png 1024w, http://bryansiegel.com/wp-content/uploads/2016/04/inventory-310x146.png 310w, http://bryansiegel.com/wp-content/uploads/2016/04/inventory-770x362.png 770w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p><strong>Inventory History</strong></p>
+<p><a href="http://bryansiegel.com/wp-content/uploads/2016/04/inventory-history.png" rel="attachment wp-att-833"><img class="alignnone size-medium wp-image-833" src="http://bryansiegel.com/wp-content/uploads/2016/04/inventory-history-300x139.png" alt="inventory-history" width="300" height="139" srcset="http://bryansiegel.com/wp-content/uploads/2016/04/inventory-history-300x139.png 300w, http://bryansiegel.com/wp-content/uploads/2016/04/inventory-history-768x355.png 768w, http://bryansiegel.com/wp-content/uploads/2016/04/inventory-history-1024x473.png 1024w, http://bryansiegel.com/wp-content/uploads/2016/04/inventory-history-310x143.png 310w, http://bryansiegel.com/wp-content/uploads/2016/04/inventory-history-770x356.png 770w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p><strong>Code Example</strong><br />
+<p>
+								<pre class="Plum_Code_Box"><code class="php">    public function count_drums()
+    {
+        $current_month = Carbon::now()-&gt;month;
+        $current_year = Carbon::now()-&gt;year;
+
+        //get all drum counts from this month and year
+        $drums = DB::select(DB::raw(
+                       &quot;select lotlogs.id, histories.count, lotlogs.product_category, histories.month, histories.year 
+                         from lotlogs 
+                         inner join histories
+                         on lotlogs.id = histories.lotlog_id 
+                         where lotlogs.product_category = 'drums' and histories.month = '$current_month' 
+                         and histories.year = '$current_year'&quot;
+                         ));
+
+        //get the count of all the drums from this month and year
+        $value = 0;
+        foreach ($drums as $drum) {
+            $drum_count = $drum-&gt;count;
+            $value += $drum_count;
+        }
+        return $value;
+    }</code>
+									</pre>
+							</p></p>
+ 
+                
+                                 
+					
+
+			
+
+
+ 
+                 
+         		</div>
+                
+               
+                
+                
+       </div>
+       
+		       
+
+	
+
+     
+      
+
+
+ <div id="copyright">
+ <p>&copy; 2018 Bryan Siegel </p>
+ </div><!-- // copyright -->   
+     
+</div><!-- // wrap -->   
+
+	<script type='text/javascript' src='http://bryansiegel.com/wp-content/themes/gridly/js/jquery.masonry.min.js?ver=78b05ff4cda4e06fd3f489c68646b240'></script>
+<script type='text/javascript' src='http://bryansiegel.com/wp-content/themes/gridly/js/functions.js?ver=78b05ff4cda4e06fd3f489c68646b240'></script>
+<script type='text/javascript' src='http://bryansiegel.com/wp-includes/js/wp-embed.min.js?ver=78b05ff4cda4e06fd3f489c68646b240'></script>
+<script type='text/javascript' src='http://bryansiegel.com/wp-includes/js/comment-reply.min.js?ver=78b05ff4cda4e06fd3f489c68646b240'></script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1368144-24', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 0/269 objects using disk
+Page Caching using disk: enhanced 
+Database Caching using disk (Request-wide modification query)
+
+Served from: bryansiegel.com @ 2018-05-29 05:21:40 by W3 Total Cache
+-->

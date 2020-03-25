@@ -1,6 +1,6 @@
 <?php
 
-require_once( $_SERVER['DOCUMENT_ROOT'] . '/src/Twitter/twitter.class.php' );
+require_once($_SERVER['DOCUMENT_ROOT'] . '/src/Twitter/twitter.class.php');
 
 
 use DG\Twitter\Twitter;
@@ -12,27 +12,27 @@ $accessToken       = '10948182-GlyqzahRjQ3NjiIGaNVYNwdsG8m7dkR6mb9t1XHay';
 $accessTokenSecret = 'oPUlYmUOX66s5sTwvInS7p5uSMDRs1uRQnoEHEMw2YlIx';
 
 
-$twitter = new Twitter( $consumerKey, $consumerSecret, $accessToken, $accessTokenSecret );
+$twitter = new Twitter($consumerKey, $consumerSecret, $accessToken, $accessTokenSecret);
 
 
-$statuses = $twitter->load( Twitter::ME, 3 );
+$statuses = $twitter->load(Twitter::ME, 2);
 ?>
 
-<?php foreach ( $statuses as $status ) : ?>
+
+<?php foreach ($statuses as $status) : ?>
 
 	<?php
 	//add href to links in tweet text
 	$tweet_text = $status->text;
-	$tweet_text = preg_replace( '@(https?://([-\w\.]+)+(/([\w/_\.]*(\?\S+)?(#\S+)?)?)?)@', '<a href="$1" target="_blank">$1</a>', $tweet_text );
+	$tweet_text = preg_replace('@(https?://([-\w\.]+)+(/([\w/_\.]*(\?\S+)?(#\S+)?)?)?)@', '<a href="$1" target="_blank">$1</a>', $tweet_text);
 
 	// format date
-	$tweet_date = date( "D M", strtotime( $status->created_at ) );
+	$tweet_date = date("D M", strtotime($status->created_at));
 	?>
 	<div class="card shadow">
 		<div class="card-body">
 			<div class="card-title">
-				<img src="<?php echo get_home_url(); ?>/wp-content/uploads/2019/03/bryan-twitter.jpg" alt=""
-				     class="tweet-image">
+				<img src="<?php echo get_home_url(); ?>/wp-content/uploads/2019/03/bryan-twitter.jpg" alt="" class="tweet-image">
 				<div class="tweet-name-container">
 					<span>Bryan Siegel</span>
 					<small class="text-muted" style="text-align:left;">

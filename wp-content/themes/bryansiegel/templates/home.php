@@ -25,13 +25,6 @@ Template Name: Homepage
 			endif;
 			?>
 			<div class="hp-icons">
-				<!--			<a href="https://bitbucket.org/bryansiegel/" title="Bryan Siegel Bitbucket">-->
-				<!--				<img src="--><?php //echo get_home_url(); 
-													?>
-				<!--/wp-content/uploads/2019/03/fav-bitbucket.png"-->
-				<!--					alt="Bryan Siegel Bitbucket"/>-->
-				<!--			</a>-->
-
 				<a href="https://bitbucket.org/bryansiegel/" title="Bryan Siegel on Bitbucket">
 					<img src="<?php echo get_home_url(); ?>/wp-content/uploads/2019/03/fav-bitbucket.png" alt="My Old repos on Bitbucket" />
 				</a>
@@ -54,9 +47,9 @@ Template Name: Homepage
 		<div class="container py-4">
 			<ul class="row list-unstyled">
 				<li class="col-md-6 mb-4">
-					<a href="<?php echo get_home_url(); ?>/category/Wordpress">
+					<a href="<?php echo get_home_url(); ?>/category/Wordpress" title="Wordpress Projects">
 						<figure class="img-overlay">
-							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/2019/03/horizon-portfolio.png" alt="Horizon Solar Power" class="border-dark img-thumbnail w-100 h-100">
+							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/2019/03/horizon-portfolio.png" alt="Horizon Solar Power" class="border-dark img-thumbnail w-100 h-100" alt="Horizon Solar Power">
 							<div class="img-hover">
 								<span class="img-text">View Page</span>
 							</div>
@@ -66,7 +59,7 @@ Template Name: Homepage
 				</li>
 
 				<li class="col-md-6 mb-4">
-					<a href="<?php echo get_home_url(); ?>/category/Laravel">
+					<a href="<?php echo get_home_url(); ?>/category/Laravel" title="Laravel Projects">
 						<figure class="img-overlay">
 							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/2019/03/laravel-portfolio-1.png" alt="Laravel Web Development" class="border-dark img-thumbnail w-100 h-100">
 
@@ -79,7 +72,7 @@ Template Name: Homepage
 				</li>
 
 				<li class="col-md-6 mb-4">
-					<a href="<?php echo get_home_url(); ?>/category/Wordpress">
+					<a href="<?php echo get_home_url(); ?>/category/Wordpress" title="Wordpress Development">
 						<figure class="img-overlay">
 							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/2019/03/ei-portfolio.png" alt="Wordpress Development" class="border-dark img-thumbnail w-100 h-100">
 
@@ -92,7 +85,7 @@ Template Name: Homepage
 				</li>
 
 				<li class="col-md-6 mb-4">
-					<a href="<?php echo get_home_url(); ?>/category/Magento">
+					<a href="<?php echo get_home_url(); ?>/category/Magento" title="Magento Development">
 						<figure class="img-overlay">
 							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/2019/03/cibaria-portfolio-1.png" alt="Magento Development" class="border-dark img-thumbnail w-100 h-100">
 
@@ -135,7 +128,7 @@ Template Name: Homepage
 									<div class="card border-0 mb-5">
 										<div class="card-body">
 											<h2 class="card-title h3 card-title-green">
-												<a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
+												<a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
 											</h2>
 
 											<?php
@@ -151,7 +144,7 @@ Template Name: Homepage
 											<hr>
 											<div class="small text-muted mb-3">
 												<a href="<?php the_permalink() ?>" class="btn btn-primary btn-sm">Read More
-												</a><span style="float:right;" class="card-title-green">by: <a href="">Bryan Siegel</a></span>
+												</a><span style="float:right;" class="card-title-green">by: <a href="<?php echo get_home_url(); ?>/about">Bryan Siegel</a></span>
 											</div>
 										</div>
 									</div>
@@ -165,7 +158,7 @@ Template Name: Homepage
 
 						</div>
 						<div class="text-center my-5">
-							<a href="<?php echo get_home_url(); ?>/blog" class="btn btn-outline-white">View all Blog Posts</a>
+							<a href="<?php echo get_home_url(); ?>/blog" class="btn btn-outline-white" title="View all Blog Posts">View all Blog Posts</a>
 						</div>
 					</div>
 					<!-- end posts -->

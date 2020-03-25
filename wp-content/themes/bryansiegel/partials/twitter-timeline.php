@@ -6,10 +6,6 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/src/Twitter/twitter.class.php');
 use DG\Twitter\Twitter;
 
 
-$consumerKey       = 'uZIaoQjS45GN5UPAyDHsg';
-$consumerSecret    = 'GyrRgPgUBVL1EUiEwxFt2SQIDXRX5tzRo7ltpaUzA';
-$accessToken       = '10948182-GlyqzahRjQ3NjiIGaNVYNwdsG8m7dkR6mb9t1XHay';
-$accessTokenSecret = 'oPUlYmUOX66s5sTwvInS7p5uSMDRs1uRQnoEHEMw2YlIx';
 
 
 $twitter = new Twitter($consumerKey, $consumerSecret, $accessToken, $accessTokenSecret);

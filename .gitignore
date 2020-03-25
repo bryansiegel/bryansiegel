@@ -22,3 +22,4 @@ wp-config.php
 cgi-bin
 .user.ini
 Vagrantfile
+wp-content/themes/bryansiegel/partials/twitter-timeline.php

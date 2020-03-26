@@ -71,7 +71,7 @@ Template Name: Homepage
 					</a>
 				</li>
 
-				<li class="col-md-6 mb-4">
+				<!-- <li class="col-md-6 mb-4">
 					<a href="<?php echo get_home_url(); ?>/category/Wordpress" title="Wordpress Development">
 						<figure class="img-overlay">
 							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/2019/03/ei-portfolio.png" alt="Wordpress Development" class="border-dark img-thumbnail w-100 h-100">
@@ -82,9 +82,9 @@ Template Name: Homepage
 						</figure>
 						<div class="h5 font-weight-normal text-center">Wordpress Development</div>
 					</a>
-				</li>
+				</li> -->
 
-				<li class="col-md-6 mb-4">
+				<!-- <li class="col-md-6 mb-4">
 					<a href="<?php echo get_home_url(); ?>/category/Magento" title="Magento Development">
 						<figure class="img-overlay">
 							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/2019/03/cibaria-portfolio-1.png" alt="Magento Development" class="border-dark img-thumbnail w-100 h-100">
@@ -95,7 +95,7 @@ Template Name: Homepage
 						</figure>
 						<div class="h5 font-weight-normal text-center">Magento Development</div>
 					</a>
-				</li>
+				</li> -->
 			</ul>
 		</div>
 

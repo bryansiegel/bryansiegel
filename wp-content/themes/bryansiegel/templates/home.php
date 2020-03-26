@@ -30,8 +30,8 @@ Template Name: Homepage
 				</a>
 				<a href="https://github.com/bryansiegel" alt="Bryan Siegel on Github">
 					<img src="<?php echo get_home_url(); ?>/wp-content/uploads/2020/03/GitHub-Mark-Light-120px-plus.png" alt="Bryan Siegel On Github">
-					<a href="https://twitter.com/BryanSiegel" title="Bryan Siegel  on Twitter">
-					</a>
+				</a>
+				<a href="https://twitter.com/BryanSiegel" title="Bryan Siegel on Twitter">
 					<img src="<?php echo get_home_url(); ?>/wp-content/uploads/2019/03/twitter.png" alt="Bryan Siegel  on Twitter" />
 				</a>
 				<a href="https://www.linkedin.com/in/bsiegel/" title="Bryan Siegel on LinkedIn">

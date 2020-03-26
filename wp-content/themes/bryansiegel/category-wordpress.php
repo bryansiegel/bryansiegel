@@ -33,7 +33,7 @@ Template Name: Wordpress Category
 
 $args = array(
     'cat' => 'laravel',
-    'post_type' => array( 'page', 'post' ),
+    'post_type' => array( 'page' ),
     'order' => 'DESC',
     'tax_query' => array(
             array(

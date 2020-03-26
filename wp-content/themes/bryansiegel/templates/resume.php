@@ -79,10 +79,6 @@ Template Name: Resume
                             </p>
                             <h6><u>Web Development</u></h6>
                             <p><strong>Magento: </strong>Responsive Redesign from (PSD) and backend development for 2 Ecommerce websites utilizing the Bootstrap CSS framework, Jquery, Javascript and PHP.</p>
-                            <ul class="list-group">
-                                <li class="list-group-item"><a href="" rel="nofollow">cibariastoresupply.com</a></li>
-                                <li class="list-group-item"><a href="">cibariasoapsupply.com</a></li>
-                            </ul>
                             <br>
                             <p><strong>Laravel Web Applications: </strong>Responsive Web design and backend development from concept (PSD) to production. Utilized Bootstrap CSS Framework, Jquery and Javascript for the front end and Laravel for the backend.</p>
                             <ul class="list-group">
@@ -91,11 +87,9 @@ Template Name: Resume
                                 </li>
                                 <li class="list-group-item">
                                     <strong>Single Page Laravel Application</strong> - Responsive Web Design from concept (PSD) to production and backend development.
-http://olivetopartyrecipes.com
                                 </li>
                                 <li class="list-group-item">
                                     <strong>Wordpress - </strong>Custom Theme Design, Responsive Web Design with Bootstrap, custom plugin development.
-https://www.cibaria-intl.com
                                 </li>
                             </ul>
                             <br>

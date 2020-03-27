@@ -16,8 +16,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>
-		<?php //if ( is_front_page() ) : ?>
-			<?php //echo "Bryan Siegel - Gadgets, Geek And Web Development"; ?>
+		<?php //if ( get_category_name(117) ) : ?>
 		<?php //else : ?>
 			<?php echo wp_title( '', true, '' ); ?>
 		<?php //endif; ?>

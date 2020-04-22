@@ -19,7 +19,6 @@ Template Name: Resume
                     <div class="line line1"></div>
                     <div class="line line2"></div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -53,17 +52,23 @@ Template Name: Resume
                         <br>
                         <h6><u>Websites</u></h6>
                         <ul class="list-group">
-                            <li class="list-group-item"><a href="https://sungevity.com" rel="nofollow">sungevity.com</a></li>
-                            <li class="list-group-item"><a href="https://solarspectrum.com" rel="nofollow">solarspectrum.com</a></li>
-                            <li class="list-group-item"><a href="https://horizonsolarpower.com" rel="nofollow">horizonsolarpower.com</a></li>
-                            <li class="list-group-item"><a href="https://energyinformative.org" rel="nofollow">energyinformative.org</a></li>
+                            <li class="list-group-item"><a href="https://sungevity.com" rel="nofollow" title="Sungevity">sungevity.com</a></li>
+                            <li class="list-group-item"><a href="https://solarspectrum.com" rel="nofollow" title="Solar Spectrum">solarspectrum.com</a></li>
+                            <li class="list-group-item"><a href="https://horizonsolarpower.com" rel="nofollow" title="Horizon Solar Power">horizonsolarpower.com</a></li>
+                            <li class="list-group-item"><a href="https://energyinformative.org" rel="nofollow" title="Energy Informative">energyinformative.org</a></li>
                         </ul>
                         <br>
                         <h6><u>Landing Pages</u></h6>
                         <ul class="list-group">
-                            <li class="list-group-item"><a href="https://www.horizonsolarpower.com/solar-free-quote/" rel="nofollow">https://www.horizonsolarpower.com/solar-free-quote/ </a></li>
-                            <li class="list-group-item"><a href="https://www.horizonsolarpower.com/california-solar-installation/" rel="nofollow">https://www.horizonsolarpower.com/california-solar-installation/</a></li>
-                            <li class="list-group-item"><a href="https://www.horizonsolarpower.com/referral-program/" rel="nofollow">https://www.horizonsolarpower.com/referral-program/</a></li>
+                            <li class="list-group-item">
+                                <a href="https://www.horizonsolarpower.com/solar-free-quote/" rel="nofollow" title="Solar Free Quote Long Form">https://www.horizonsolarpower.com/solar-free-quote/</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="https://www.horizonsolarpower.com/california-solar-installation/" rel="nofollow" title="California Custom Wordpress Template">https://www.horizonsolarpower.com/california-solar-installation/</a>
+                                </li>
+                            <li class="list-group-item">
+                                <a href="https://www.horizonsolarpower.com/referral-program/" rel="nofollow" title="Referal Program">https://www.horizonsolarpower.com/referral-program/</a>
+                            </li>
                         </ul>
                         <br>
                         <h6>Technologies Used:</h6>
@@ -133,9 +138,6 @@ Template Name: Resume
                         <span class="badge badge-pill badge-dark">SEO</span>
                         <span class="badge badge-pill badge-dark">Graphic Design</span>
                         <span class="badge badge-pill badge-dark">Print Design</span>
-
-
-
                         <hr>
                         <div class="resume-title-background">
                             <h5 class="resume-job-title">Web Developer <span class="resume-company">Law Offices Of Marc Grossman</span></h5>
@@ -199,7 +201,6 @@ Template Name: Resume
             </div>
         </div>
     </div>
-
     <?php echo get_template_part('partials/call-to-action'); ?>
 </main>
 <?php echo get_template_part('partials/footer'); ?>

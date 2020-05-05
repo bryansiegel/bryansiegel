@@ -1,7 +1,5 @@
 <!-- header -->
 <header class="site-header fixed-top bg-black border-dark">
-	<a href="#content" class="sr-only sr-only-focusable">Skip to content</a>
-
 	<div class="container">
 		<nav class="navbar main-nav navbar-expand-lg navbar-dark" aria-label="Main navigation">
 			<span class="navbar-brand">
